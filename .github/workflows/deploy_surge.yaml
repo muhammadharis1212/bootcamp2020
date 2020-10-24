@@ -1,5 +1,5 @@
 ---
-name: Deploy website with surrge
+name: Deploy website with surge
 
 on:
   push:
