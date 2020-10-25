@@ -28,4 +28,4 @@ jobs:
       - name: Install surge
         run: npm install -g surge
       - name: Deploy html page using surge
-        run: surge ./ harisbootcamp.surge.sh --token ${{secret.MYSECRET}}
+        run: surge ./ harisbootcamp.surge.sh --token ${{secrets.MYSECRET}}
