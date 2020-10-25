@@ -26,6 +26,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: sudo Install surge
-        run: npm install -g surge
+        run: sudo npm install -g surge
       - name: Deploy html page using surge
         run: surge ./ harisbootcamp.surge.sh --token ${{secrets.MYSECRET}}
